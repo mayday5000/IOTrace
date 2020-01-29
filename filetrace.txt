@@ -1,0 +1,12 @@
+              Procedure               Image               Call Address              Ret Address         Ins Count        Ret Mnemonic
+-------------------------------------------------------------------------------------------------------------------------------------
+
+         _IO_file_fopen           libc.so.6             0x7fad508427a0           0x7fad50842825                58            RET_NEAR
+                  fseek           libc.so.6             0x7fad5083e4d0           0x7fad5083e5a2                39            RET_NEAR
+                fopen64           libc.so.6             0x7fad50836850           0x7fad50836850                 2                 JMP
+                  fgets           libc.so.6             0x7fad508365c0           0x7fad508366cc               384            RET_NEAR
+                 fclose           libc.so.6             0x7fad50835e60           0x7fad50835f14                75            RET_NEAR
+                 fclose          sort_match             0x561c9d75ba10           0x561c9d75ba10                 3                 JMP
+                  fgets          sort_match             0x561c9d75b9c0           0x561c9d75b9c0                 8                 JMP
+                  fopen          sort_match             0x561c9d75b9b0           0x561c9d75b9b0                 3                 JMP
+                  fseek          sort_match             0x561c9d75b970           0x561c9d75b970                 3                 JMP
