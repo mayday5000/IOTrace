@@ -73,5 +73,5 @@ cat filetrace.txt
                   fgets          sort_match             0x561c9d75b9c0           0x561c9d75b9c0                 8                 JMP
                   fopen          sort_match             0x561c9d75b9b0           0x561c9d75b9b0                 3                 JMP
                   fseek          sort_match             0x561c9d75b970           0x561c9d75b970                 3                 JMP
-ec2-user@kali:~/RevEng/pin-3.4-97438-gf90d1f746-gcc-linux/source/tools/ManualExamples/MyPinTools/iotrace$ 
+
 
