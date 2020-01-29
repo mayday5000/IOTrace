@@ -27,20 +27,30 @@ g++ -g -o sort_match sort_match.cpp
 pin -t iotrace.so -- ./sort_match
 
 [+] Id: 18 - Nombre: damian
+
 [+] Id: 2 - Nombre: ariel
+
 [+] Id: 51 - Nombre: prueba
 
 
 ls -lartF
 
 total 2436
+
 drwxrwxr-x+ 6 ec2-user ec2-user    4096 Jan 29 02:53 ../
+
 -rwxr-xr-x+ 1 ec2-user ec2-user   21976 Jan 29 02:54 sort_match*
+
 -rwxr-xr-x+ 1 ec2-user ec2-user 2433784 Jan 29 02:54 iotrace.so*
+
 -rw-r--r--+ 1 ec2-user ec2-user    7078 Jan 29 02:57 sort_match.cpp
+
 -rw-r-----+ 1 ec2-user ec2-user    6785 Jan 29 02:57 iotrace.cpp
+
 -rw-r--r--+ 1 ec2-user ec2-user      56 Jan 29 03:05 in.txt
+
 drwxrwxr-x+ 2 ec2-user ec2-user    4096 Jan 29 03:05 ./
+
 -rw-rw-r--+ 1 ec2-user ec2-user    1475 Jan 29 03:05 filetrace.txt
 
 
