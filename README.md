@@ -25,6 +25,8 @@ Compilacion de programa de prueba:
 g++ -g -o sort_match sort_match.cpp
 
 
+Instrumentacion del binario utilizando iotrace:
+-----------------------------------------------
 
 pin -t iotrace.so -- ./sort_match
 
