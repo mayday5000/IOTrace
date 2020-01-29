@@ -21,7 +21,9 @@ OS: Linux kali 4.9.0-kali2-amd64 #1 SMP Debian 4.9.10-1kali1 (2017-02-20) x86_64
 
 Compilacion de programa de prueba:
 ----------------------------------
+
 g++ -g -o sort_match sort_match.cpp
+
 
 
 pin -t iotrace.so -- ./sort_match
@@ -31,6 +33,7 @@ pin -t iotrace.so -- ./sort_match
 [+] Id: 2 - Nombre: ariel
 
 [+] Id: 51 - Nombre: prueba
+
 
 
 ls -lartF
@@ -54,7 +57,9 @@ drwxrwxr-x+ 2 ec2-user ec2-user    4096 Jan 29 03:05 ./
 -rw-rw-r--+ 1 ec2-user ec2-user    1475 Jan 29 03:05 filetrace.txt
 
 
+
 cat filetrace.txt 
+
               Procedure               Image               Call Address              Ret Address         Ins Count        Ret Mnemonic
 -------------------------------------------------------------------------------------------------------------------------------------
 
