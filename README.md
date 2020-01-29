@@ -61,7 +61,7 @@ drwxrwxr-x+ 2 ec2-user ec2-user    4096 Jan 29 03:05 ./
 cat filetrace.txt 
 
               Procedure               Image               Call Address              Ret Address         Ins Count        Ret Mnemonic
-
+=========================================================================================================================================
 
          _IO_file_fopen           libc.so.6             0x7fad508427a0           0x7fad50842825                58            RET_NEAR
                   fseek           libc.so.6             0x7fad5083e4d0           0x7fad5083e5a2                39            RET_NEAR
