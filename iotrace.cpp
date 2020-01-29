@@ -9,7 +9,6 @@
 
 ofstream outFile;
 
-// Holds instruction count for a single procedure
 typedef struct CallData
 {
     string _name;
@@ -22,11 +21,9 @@ typedef struct CallData
     struct CallData * _next;
 } RTN_CALL;
 
-// Linked list of instruction counts for each routine
 RTN_CALL * RtnList = 0;
 
 
-// This function is called before every instruction is executed
 void docount(UINT64 * counter)
 {
     (*counter)++;
@@ -131,8 +128,7 @@ VOID Routine(RTN rtn, VOID *v)
    RTN_Close(rtn);
 }
 
-// This function is called when the application exits
-// It prints the name and count for each procedure
+
 VOID Fini(INT32 code, VOID *v)
 {
     outFile << setw(23) << "Procedure" << " "
