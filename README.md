@@ -23,11 +23,11 @@ Compilacion de programa de prueba:
 ----------------------------------
 g++ -g -o sort_match sort_match.cpp
 
-ec2-user@kali:~/RevEng/pin-3.4-97438-gf90d1f746-gcc-linux/source/tools/ManualExamples/MyPinTools/iotrace$ pin -t iotrace.so -- ./sort_match
+pin -t iotrace.so -- ./sort_match
 [+] Id: 18 - Nombre: damian
 [+] Id: 2 - Nombre: ariel
 [+] Id: 51 - Nombre: prueba
-ec2-user@kali:~/RevEng/pin-3.4-97438-gf90d1f746-gcc-linux/source/tools/ManualExamples/MyPinTools/iotrace$ l
+ls -lartF
 total 2436
 drwxrwxr-x+ 6 ec2-user ec2-user    4096 Jan 29 02:53 ../
 -rwxr-xr-x+ 1 ec2-user ec2-user   21976 Jan 29 02:54 sort_match*
@@ -37,7 +37,7 @@ drwxrwxr-x+ 6 ec2-user ec2-user    4096 Jan 29 02:53 ../
 -rw-r--r--+ 1 ec2-user ec2-user      56 Jan 29 03:05 in.txt
 drwxrwxr-x+ 2 ec2-user ec2-user    4096 Jan 29 03:05 ./
 -rw-rw-r--+ 1 ec2-user ec2-user    1475 Jan 29 03:05 filetrace.txt
-ec2-user@kali:~/RevEng/pin-3.4-97438-gf90d1f746-gcc-linux/source/tools/ManualExamples/MyPinTools/iotrace$ cat filetrace.txt 
+cat filetrace.txt 
               Procedure               Image               Call Address              Ret Address         Ins Count        Ret Mnemonic
 -------------------------------------------------------------------------------------------------------------------------------------
 
