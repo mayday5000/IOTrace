@@ -1,0 +1,2 @@
+# Tools built by "make" (see the Pin kit's source/tools/MyPinTool for the full template).
+TEST_TOOL_ROOTS := iotrace
